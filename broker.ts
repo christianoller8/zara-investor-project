@@ -1,4 +1,4 @@
-import * as stockValueToCalculate from "./StockValue";
+import * as earningsToCalculate from "./stockCalculations";
 
 export class Broker {
     public commission: number;
@@ -28,15 +28,15 @@ export class Broker {
     public purchaseStocks() {
         let purchaseCommission: number = (this.getCommision() * this.getAmount() / 100)
         let amountToInvest: number = this.getCommision() - purchaseCommission;
-        let stockPrices = stockValueToCalculate.StockValue.purchaseStock(amountToInvest);
+        let stockPrices = earningsToCalculate.StockValue.purchaseStock(amountToInvest);
 
         return stockPrices;
     }
 
     public sellStocks() {
-        const closeStockValueFinal = stockValueToCalculate.StockValue.closeStockValue();
+        const closeStockValueFinal = earningsToCalculate.StockValue.closeStockValue();
         let parseStock = parseFloat(closeStockValueFinal);
-        return (stockValueToCalculate.StockValue.totalStock(this.purchaseStocks()) * parseStock).toFixed(3);
+        return (earningsToCalculate.StockValue.totalStock(this.purchaseStocks()) * parseStock).toFixed(3);
     }
 
 
