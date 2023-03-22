@@ -4,12 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "ts-node index.ts",
+    "uncrypt": "ts-node encryptApp.ts",
+    "start": "env.bat && ts-node index.ts",
+    "lint": "eslint . --ext .ts",
+    "lint-fix": "eslint . --ext .ts --fix",
+    "format": "npx prettier --write ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Christian",
   "license": "ISC",
   "dependencies": {
+    "crypto-js": "^4.1.1",
     "csvtvu": "^0.1.2"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/node": "^18.15.5",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.6"
   }
 }
