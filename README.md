@@ -30,10 +30,15 @@ This is an image of the final result if the entire project has been downloaded, 
 ## Working Hours
 
 Friday - 9 hours.
+
 Saturday - 10 hours.
+
 Sunday - 11 hours.
+
 Monday - 3 hours.
+
 Tuesday - 3 hours.
+
 
 TOTAL: 36 hours.
 
