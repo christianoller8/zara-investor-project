@@ -6,7 +6,9 @@ The technical test will be performed in Typescript and consists of finding the t
 ## Requirements
 
 [Node.js](https://nodejs.org) is required to install dependencies and run scripts via `npm`.
+
 [TypeScript 4](https://www.typescriptlang.org/) it is necessary to correctly read the project.
+
 [csvtvu](npm.js) library is necessary to support the code of this project.
 
 ## Available Commands
