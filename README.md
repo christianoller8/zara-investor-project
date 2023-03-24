@@ -11,13 +11,13 @@ The technical test will be performed in Typescript and consists of finding the t
 
 ## Available Commands
 
-| Command | Description |
-|---------|-------------|
-| `npm install` | Install project dependencies |
-| `npm install csvtvu` | Install our own library  |
-| `npm run build` | Builds code bundle with production settings |
-| `npm run start` | Builds code bundle with production settings with environment variables|
-| `npm run lint-format` | Lints and format the code for better formatting and clean code.|
+| Command               | Description                                                            |
+| --------------------- | ---------------------------------------------------------------------- |
+| `npm install`         | Install project dependencies                                           |
+| `npm install csvtvu`  | Install our own library                                                |
+| `npm run build`       | Builds code bundle with production settings                            |
+| `npm run start`       | Builds code bundle with production settings with environment variables |
+| `npm run lint-format` | Lints and format the code for better formatting and clean code.        |
 
 ## Expected Result
 

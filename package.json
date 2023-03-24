@@ -7,6 +7,7 @@
     "build": "ts-node index.ts",
     "uncrypt": "ts-node encryptApp.ts",
     "start": "env.bat && ts-node index.ts",
+    "traza": "ts-node src/traza.ts",
     "lint-format": "eslint . --ext .ts && npx prettier --write .",
     "lint": "eslint . --ext .ts",
     "lint-fix": "eslint . --ext .ts --fix",

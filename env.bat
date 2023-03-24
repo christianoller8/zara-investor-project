@@ -1,2 +1,3 @@
+@echo off
 set LANGUAGE=ESP
 set CURRENCY=EUR
